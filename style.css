@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('font/UbuntuRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+ }
+
+ * {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+ }
+
+ .form {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 200px;
+   margin: 0 auto;
+   width: 50%;
+ }
+
+ .cards-label {
+   margin-bottom: 50px;
+   width: 100%;
+   font-size: 24px;
+   text-align: center;
+ }
+
+ .label-span {
+   display: block;
+   font-size: 16px;
+   color: #808080;
+ }
+
+ .cards-number {
+  padding: 10px;
+  margin-top: 50px;
+  width: 50px;
+  font-size: 18px;
+  text-align: center;
+ }
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto ;
+  padding: 100px 100px 0;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 0 50px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.cards2 {
+  width: 350px;
+}
+
+.cards4 {
+  width: 70%;
+}
+
+.cards6, .cards8, .cards10 {
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 300px;
+  font-size: 5em;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.card2 {
+  max-width: 150px;
+}
+
+.card4 {
+  height: 150px;
+  line-height: 150px;
+}
+
+.card6 {
+  height: 100px;
+  line-height: 100px;
+}
+
+.card8 {
+  height: 80px;
+  line-height: 80px;
+  font-size: 4em;
+}
+
+.card10 {
+  height: 60px;
+  line-height: 60px;
+  font-size: 3em;
+}
+
+.card-cover {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+  background: repeating-radial-gradient(transparent 0, transparent 40%, white 40%, white 41%) center center/0.5em 0.5em, #99DFD7;
+}
+
+.pairs {
+  color: #67afa7;
+  border: 1px solid #67afa7;
+  box-shadow: 0 0 10px #67afa7;
+  cursor: default;
+}
+
+.more-btn, .start-btn {
+  width: 30%;
+  padding: 20px 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid #67afa7;
+  border-radius: 0.6em;
+  color: #67afa7;
+  cursor: pointer;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.more-btn:hover, .start-btn:hover {
+  color: #fff;
+  outline: 0;
+  box-shadow: 0 0 40px 40px #67afa7 inset;
+}
+
